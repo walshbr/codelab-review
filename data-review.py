@@ -31,15 +31,17 @@ the_string_cohort = "The Praxis cohort consists of Susan, Joseph, Jennifer, Jacq
 
 # a list
 the_list_cohort = ['Susan', 'Joseph', 'Jennifer', 'Jacqui', 'Tarushi', 'Cherrie']
+# this would give us a sense of ordering. We could shuffle them up, etc. But now we have more of a sense of each of these people as actual, separate units.
 
-# a dictionary
+
+# a dictionary expects you to have an association, two pieces of data that are connected.
 # first_name: last_name
 # initials: full name
 # cohort_num: list_of_students
-# here's do name: year_in_program
+# let's do name: year_in_program
 the_dict_cohort = {'Susan': 3, 'Joseph': 5}
  
-# let's organize the same data two different ways
+# let's organize the same data two different ways, using a sort-of humanist example
 # book - author, death_date, title, list of words in the book
-book_one_list = ['Dickens', '1894', 'Hard Times', ['It', 'was', 'the', 'hardest', 'students']]
-book_one_dict = {'author': 'Dickens', 'title': 'Hard Times', 'the_words': ['It', 'was', 'the', 'hardest','students']}
+book_one_list = ['Dickens', '1894', 'Hard Times', ['It', 'was', 'the', 'hardest', 'time']]
+book_one_dict = {'author': 'Dickens', 'title': 'Hard Times', 'the_words': ['It', 'was', 'the', 'hardest','time']}
